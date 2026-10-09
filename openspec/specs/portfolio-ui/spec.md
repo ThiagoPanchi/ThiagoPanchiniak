@@ -35,11 +35,15 @@ O sistema SHALL / DEVE disponibilizar um cabeçalho fixo no topo da página cont
 - **THEN** o cabeçalho mantém a seção About Me visualmente ativa para indicar que o zoom urbano pertence à Ilha Sobre Mim.
 
 ### Requirement: Modais e Popups de Detalhe Contextual
-O sistema SHALL / DEVE exibir uma janela modal flutuante com plano de fundo escurecido (*backdrop*) e bordas estilizadas em tons de verde quando um Ponto de Interesse (POI) da cena for acionado, preenchida com os dados correspondentes dos Itens 3, 4, 5, 6 e 7 do `curriculo_thiago_panchiniak.md`, e SHALL / DEVE exibir os modais dos distritos tecnológicos apenas quando os respectivos distritos forem selecionados dentro do zoom urbano da Cidade de Stacks. Os POIs e áreas navegáveis SHALL / DEVE exibir ícones PNG locais de `public/assets/png` conforme o mapa visual definido para cada área, com o ícone da área `Quem sou eu` alinhado um pouco mais a oeste sobre a floresta da Ilha Sobre Mim.
+O sistema SHALL / DEVE exibir uma janela modal flutuante com plano de fundo escurecido (*backdrop*) e bordas estilizadas em tons de verde quando um Ponto de Interesse (POI) da cena for acionado, preenchida com os dados correspondentes dos Itens 3, 4, 5, 6 e 7 do `curriculo_thiago_panchiniak.md`, e SHALL / DEVE exibir os modais dos distritos tecnológicos apenas quando os respectivos distritos forem selecionados dentro do zoom urbano da Cidade de Stacks. Os POIs e áreas navegáveis SHALL / DEVE exibir ícones PNG locais de `public/assets/png` conforme o mapa visual definido para cada área, com o ícone da área `Quem sou eu` alinhado um pouco mais a oeste sobre a floresta da Ilha Sobre Mim. Os modais dos projetos GeoBrasil e Circula SHALL / DEVE disponibilizar links de demonstração ao vivo para suas respectivas páginas publicadas no GitHub Pages.
 
 #### Scenario: Visualização de detalhes de um projeto
 - **WHEN** o usuário clica em um dos projetos da Ilha de Portfólio
 - **THEN** o sistema exibe o modal contendo a descrição real do projeto selecionado, tecnologias e links, respeitando a organização visual atual da ilha.
+
+#### Scenario: Links ao vivo de GeoBrasil e Circula
+- **WHEN** o usuário abre o modal do projeto `GeoBrasil` ou `Circula` na Ilha de Portfólio
+- **THEN** o botão de demonstração ao vivo aponta para `https://thiagopanchi.github.io/GeoBrasil/` para GeoBrasil e `https://thiagopanchi.github.io/Mock-Circula/` para Circula.
 
 #### Scenario: Fechamento do modal
 - **WHEN** o usuário clica no botão fechar (X), pressiona a tecla Esc ou clica no backdrop externo

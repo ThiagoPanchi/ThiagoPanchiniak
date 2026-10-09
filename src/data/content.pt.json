@@ -190,7 +190,7 @@
           "technologies": ["WebGIS", "Dados públicos", "GitHub Pages", "Python", "React planejado"],
           "details": ["Seletores dependentes por área escolhida.", "Indicadores de população, densidade e renda conforme implementação.", "Interações entre mapa, filtros e dashboard."],
           "github": "https://github.com/ThiagoPanchi",
-          "demo": "https://github.com/ThiagoPanchi"
+          "demo": "https://thiagopanchi.github.io/GeoBrasil/"
         },
         "proj5": {
           "title": "LLM Local Llama",
@@ -210,7 +210,7 @@
           "technologies": ["Localização", "Mapas", "Web", "Arquitetura de produto", "GovTech"],
           "details": ["Fluxo de cadastro e busca de doações.", "Filtros no mapa e decisões de arquitetura.", "Apresentado como projeto planejado enquanto estiver em concepção."],
           "github": "https://github.com/ThiagoPanchi",
-          "demo": "https://github.com/ThiagoPanchi"
+          "demo": "https://thiagopanchi.github.io/Mock-Circula/"
         }
       }
     },
