@@ -1,0 +1,236 @@
+{
+  "profile": {
+    "name": "Thiago Panchiniak",
+    "role": "Geographer | GIS and WebGIS Development | Data Engineering | Data Science | AI Applications",
+    "tagline": "Connecting territory, data, and software development to turn complex information into useful tools.",
+    "bio": "I am a geographer, Master in Territorial Management, and Systems Development technician, with a background connecting territorial analysis, geotechnologies, and software development. I have worked in environmental consulting, urban planning and management, and in recent years with data science and development at a market intelligence company. I work with Python, SQL, data processing, GIS and WebGIS applications, automations, and artificial intelligence integration in applications. I am broadly interested in software development, data engineering and science, and AI integration, creating solutions that automate processes and transform complex information into useful tools for different business areas.",
+    "location": "Florianópolis/Santa Catarina",
+    "status": "Open to projects and opportunities",
+    "tags": ["GIS Development", "Data Engineering", "Web Development", "Applied AI"],
+    "social": {
+      "github": "https://github.com/ThiagoPanchi",
+      "linkedin": "https://www.linkedin.com/in/thiago-panchiniak-65b63055/",
+      "email": "panchiniak@gmail.com"
+    },
+    "cvUrl": "./assets/cv_thiago_panchiniak.pdf"
+  },
+  "nav": {
+    "overview": "Overview",
+    "about": "About Me",
+    "resume": "Resume",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "ui": {
+    "downloadCv": "Download CV (PDF)",
+    "exploreMap": "Explore 3D Archipelago",
+    "clickPoiHint": "Click Stacks & Technologies to zoom, or districts in city view for details",
+    "dragHint": "Drag to orbit the scene",
+    "close": "Close",
+    "viewCode": "View on GitHub",
+    "liveDemo": "Live Demo",
+    "technologies": "Technologies",
+    "highlights": "Highlights",
+    "period": "Period",
+    "role": "Role",
+    "cityZoom": "Stacks & Technologies",
+    "backToIsland": "Back to Island",
+    "breadcrumbCity": "About Me Island > Stack City"
+  },
+  "islands": {
+    "about": {
+      "title": "About Me Island",
+      "subtitle": "Background, education, and technology city",
+      "pois": {
+        "forest": {
+          "title": "Who I Am",
+          "category": "Who I am",
+          "summary": "A path that starts in Geography and expands into software, data, and AI.",
+          "description": "My path began in Geography, driven by an interest in understanding territory and using spatial information to support decisions. During my undergraduate and master's studies at UFSC, I gained experience in environmental consulting, urban planning and management, and spatial analysis. Over time, I expanded into programming, systems development, WebGIS, APIs, processing routines, and tools for making data available to users.",
+          "details": [
+            "Experience with ArcGIS, QGIS, GIS, geoprocessing, and remote sensing.",
+            "Work with data science, Python, SQL, and geographic information in market intelligence between 2021 and 2026.",
+            "Development of MapGenPlus, a WebGIS platform for creating videos with maps.",
+            "Current focus on software, data engineering, data science, and AI applications."
+          ]
+        },
+        "mountain": {
+          "title": "Education",
+          "category": "Academic background",
+          "summary": "Education in Geography, Territorial Management, and Systems Development.",
+          "description": "Academic foundation built at the Federal University of Santa Catarina and SENAI, connecting territorial management, planning, spatial analysis, and software development.",
+          "details": [
+            "Master's degree in Territorial Management at UFSC/PPGET, completed between 2015 and 2017.",
+            "Bachelor's degree and teaching licensure in Geography at UFSC, completed between 2007 and 2014.",
+            "Technical degree in Systems Development at SENAI, 2019-2020.",
+            "Teaching experience in Geography in the Florianópolis public school system between 2018 and 2019."
+          ]
+        },
+        "village": {
+          "title": "Stacks & Technologies",
+          "category": "Stacks and technologies",
+          "summary": "A technology city organized into five explorable districts.",
+          "description": "Technologies are organized by reported use, separating professional experience, personal projects, and studies so that not every tool is assigned the same level of mastery.",
+          "details": [
+            "Geotechnologies and GIS: ArcGIS, QGIS, ArcGIS Enterprise, WebMaps, ArcGIS in Power BI, OpenLayers, Vue 3, WebGL, GeoPandas, Shapefile, GeoJSON, KML, and spatial analysis.",
+            "Backend and databases: Python, Pandas, SQL, Flask, FastAPI, PostgreSQL, SQLite, JavaScript, Vue 3, Git, and GitHub.",
+            "Data engineering and cloud: ETL, Python automations, Azure Data Factory, Azure Blob Storage, FTP, DBC, DBF, CSV, data quality, Docker, Docker Compose, and Power BI.",
+            "Data science and AI: machine learning, data analysis, local LLMs with llama.cpp, AI APIs, text classification, and AI-assisted development.",
+            "Technologies under study: React, AWS, FlatGeobuf, Parquet, Redis, and API infrastructure."
+          ]
+        },
+        "districtGeo": {
+          "title": "Geotechnology GIS",
+          "category": "Stack City",
+          "summary": "Geoprocessing, WebGIS, and spatial analysis.",
+          "description": "District dedicated to ArcGIS, QGIS, ArcGIS Enterprise, WebMaps, ArcGIS in Power BI, OpenLayers, Vue 3, WebGL in OpenLayers, GeoPandas, and formats such as Shapefile, GeoJSON, and KML.",
+          "details": ["Geographic information production and spatial analysis.", "Interactive map publishing and WebGIS solutions.", "Integration of territorial, demographic, and business data."]
+        },
+        "districtBackend": {
+          "title": "Backend and Databases",
+          "category": "Stack City",
+          "summary": "Programming, APIs, and data persistence.",
+          "description": "District dedicated to Python, Pandas, SQL, Flask, FastAPI, PostgreSQL, SQLite, JavaScript, Vue 3, Git, and GitHub.",
+          "details": ["Data processing, cleaning, and validation.", "REST APIs, automations, and integration with AI models.", "Persistence and queries in relational databases."]
+        },
+        "districtCloud": {
+          "title": "Cloud ETL",
+          "category": "Stack City",
+          "summary": "Pipelines, integration, and cloud services.",
+          "description": "District dedicated to ETL, Python automations, Azure Data Factory, Azure Blob Storage, FTP, DBC, DBF, CSV, data quality, Docker, Docker Compose, and Power BI.",
+          "details": ["Extraction, conversion, and integration of data from different sources.", "Quality rules, normalization, and validation.", "Containerization and analytical visualization."]
+        },
+        "districtAi": {
+          "title": "AI ML",
+          "category": "Stack City",
+          "summary": "Data science, machine learning, and local LLMs.",
+          "description": "District dedicated to lead scoring, crossing business and geographic information, local LLMs with llama.cpp, AI APIs, and structured JSON responses.",
+          "details": ["Machine learning models for market intelligence.", "Text classification with local models.", "Input preparation and structured response handling."]
+        },
+        "districtFuture": {
+          "title": "Future Technologies",
+          "category": "Stack City",
+          "summary": "Technologies under study and deeper exploration.",
+          "description": "District dedicated to React, AWS, FlatGeobuf, Parquet, Redis, and API infrastructure.",
+          "details": ["Modern frontend for WebGIS projects.", "Cloud services applied to data engineering.", "Efficient geospatial formats and concurrent processing."]
+        }
+      }
+    },
+    "resume": {
+      "title": "Journey Island",
+      "subtitle": "Professional history and chronological milestones",
+      "pois": {
+        "exp1": {
+          "title": "Lifeshub: Data Science and Development",
+          "company": "Market intelligence company - Lifeshub",
+          "period": "Approximately 2021 - August 2026",
+          "role": "Data Scientist focused on development",
+          "summary": "Development of data, GIS, and market intelligence solutions.",
+          "description": "Work developing data solutions to support analysis and business needs, integrating data processing, SQL, Python, and geographic information.",
+          "highlights": ["Data processing, transformation, and validation with Python and SQL.", "Machine learning models for lead scoring.", "WebGIS solutions with layers of potential customers, competitors, and census socioeconomic information."]
+        },
+        "exp2": {
+          "title": "Technical Consulting in Geography and Geoprocessing",
+          "company": "IPUF, LabTrans, UFSC, and independent projects",
+          "period": "2014 - 2018",
+          "role": "Geoprocessing consultant and technician",
+          "summary": "Urban planning, environmental consulting, and spatial analysis.",
+          "description": "Work across geoprocessing projects, internships, and scholarships, including UFSC, LabTrans, and the Florianópolis Urban Planning Institute.",
+          "highlights": ["Production and analysis of spatial information.", "Use of ArcGIS, QGIS, GIS, and remote sensing.", "Projects involving private companies and public agencies."]
+        },
+        "exp3": {
+          "title": "Geography Teaching",
+          "company": "Florianópolis public school system",
+          "period": "2018 - 2019",
+          "role": "Geography teacher",
+          "summary": "Teaching experience and accessible technical communication.",
+          "description": "Brief experience teaching Geography, contributing to the ability to explain content, communicate with different audiences, and adapt technical language.",
+          "highlights": ["Communication of geographic topics.", "Dialogue with students.", "Translation of technical concepts for different audiences."]
+        },
+        "exp4": {
+          "title": "Personal Development Projects",
+          "company": "MapGenPlus and GIS, data, and AI projects",
+          "period": "2024 - 2026",
+          "role": "Personal project developer",
+          "summary": "Projects integrating geotechnologies, web applications, data, and AI.",
+          "description": "Personal projects without assuming employment or commercial contract, focused on WebGIS, data processing, and artificial intelligence.",
+          "highlights": ["MapGenPlus for creating videos with maps.", "Prototypes with local LLMs and APIs.", "Data engineering and geospatial application projects."]
+        }
+      }
+    },
+    "portfolio": {
+      "title": "Grand Project Island",
+      "subtitle": "Five areas connecting data, territory, and software",
+      "pois": {
+        "proj1": {
+          "title": "MapGenPlus",
+          "category": "WebGIS and map video",
+          "summary": "WebGIS platform for creating videos with maps.",
+          "description": "A tool that uses maps as a visual communication resource, combining geographic interaction, drawing, editing, styling, and animation of geographic elements.",
+          "technologies": ["Vue 3", "OpenLayers", "WebGL", "GIS", "Map animation"],
+          "details": ["Workflow for creating animations or videos with maps.", "Geometry editing and style configuration.", "Imported geometry handling and opacity animation."],
+          "github": "https://github.com/ThiagoPanchi",
+          "demo": "https://github.com/ThiagoPanchi"
+        },
+        "proj2": {
+          "title": "GitHub Projects",
+          "category": "Technical repositories and challenges",
+          "summary": "Consolidated area for data engineering, API, and market intelligence projects.",
+          "description": "Combines Azure ETL Pipeline, Drone API, and Market Intelligence into one portfolio area focused on repositories and technical implementations.",
+          "technologies": ["Python", "SQL", "Pandas", "Machine Learning", "FastAPI", "Docker", "Azure"],
+          "details": ["Azure ETL Pipeline: FTP automation, DBC/DBF/CSV conversion, and Azure Blob Storage loading.", "Drone API: technical challenge with CRUD, authentication, endpoint documentation, and aerial image inference.", "Market Intelligence: scores, potential customer layers, competitors, and socioeconomic information."],
+          "github": "https://github.com/ThiagoPanchi",
+          "demo": "https://github.com/ThiagoPanchi"
+        },
+        "proj3": {
+          "title": "GeoBrasil",
+          "category": "WebGIS and demographic dashboard",
+          "summary": "Exploration of 2022 Census indicators across multiple scales.",
+          "description": "WebGIS and dashboard to navigate by state, microregion, municipality, and census tract, with demographic and territorial indicators.",
+          "technologies": ["WebGIS", "Public data", "GitHub Pages", "Python", "Planned React"],
+          "details": ["Dependent selectors by selected area.", "Population, density, and income indicators according to implementation.", "Interactions between map, filters, and dashboard."],
+          "github": "https://github.com/ThiagoPanchi",
+          "demo": "https://github.com/ThiagoPanchi"
+        },
+        "proj5": {
+          "title": "Local Llama LLM",
+          "category": "Applied AI and structured response",
+          "summary": "Text classification with a local LLM and JSON output.",
+          "description": "Prototype integrating Llama-family models running with llama.cpp into a Python/Flask application, returning structured classifications.",
+          "technologies": ["Llama", "llama.cpp", "Python", "Flask", "JSON", "APIs"],
+          "details": ["Report classification using fictional data.", "Local model loading and inference configuration.", "Presented as a technical prototype without clinical validation."],
+          "github": "https://github.com/ThiagoPanchi",
+          "demo": "https://github.com/ThiagoPanchi"
+        },
+        "proj7": {
+          "title": "Circula",
+          "category": "GovTech and location",
+          "summary": "Planned donation platform with location.",
+          "description": "Concept-stage project to connect donors with people and organizations needing clothing, furniture, electronics, and food using location and map filters.",
+          "technologies": ["Location", "Maps", "Web", "Product architecture", "GovTech"],
+          "details": ["Donation registration and search flow.", "Map filters and architecture decisions.", "Presented as a planned project while still in conception."],
+          "github": "https://github.com/ThiagoPanchi",
+          "demo": "https://github.com/ThiagoPanchi"
+        }
+      }
+    },
+    "contact": {
+      "title": "Beacon Island",
+      "subtitle": "Real contact channels and connections",
+      "pois": {
+        "beacon": {
+          "title": "Contact Beacon",
+          "category": "Direct contact",
+          "summary": "Open channels for projects, partnerships, and professional opportunities.",
+          "description": "Reach out to discuss geoprocessing, GIS/WebGIS, data engineering, data science, AI applications, or software development.",
+          "channels": [
+            { "label": "Email", "value": "panchiniak@gmail.com", "href": "mailto:panchiniak@gmail.com" },
+            { "label": "LinkedIn", "value": "linkedin.com/in/thiago-panchiniak-65b63055", "href": "https://www.linkedin.com/in/thiago-panchiniak-65b63055/" },
+            { "label": "GitHub", "value": "github.com/ThiagoPanchi", "href": "https://github.com/ThiagoPanchi" },
+            { "label": "Location", "value": "Florianópolis/Santa Catarina", "href": "https://www.google.com/maps/search/Florianopolis+Santa+Catarina" }
+          ]
+        }
+      }
+    }
+  }
+}
