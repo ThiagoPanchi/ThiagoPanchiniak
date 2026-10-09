@@ -1,4 +1,6 @@
-const iconPath = (fileName) => `/assets/png/${fileName}`;
+import { publicAsset } from '../utils/publicAsset';
+
+const iconPath = (fileName) => publicAsset(`assets/png/${fileName}`);
 
 export const POI_ICONS = {
   forest: iconPath('001-Quem-sou-eu.png'),

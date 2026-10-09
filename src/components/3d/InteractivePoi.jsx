@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import { useFrame, useLoader } from '@react-three/fiber';
 import { Html } from '@react-three/drei';
 import * as THREE from 'three';
+import { publicAsset } from '../../utils/publicAsset';
 
 export default function InteractivePoi({
   id,
@@ -16,7 +17,7 @@ export default function InteractivePoi({
   const [hovered, setHovered] = useState(false);
   const pinRef = useRef();
   const isSelected = activePoi === id;
-  const iconTexture = useLoader(THREE.TextureLoader, iconUrl || '/favicon.svg');
+  const iconTexture = useLoader(THREE.TextureLoader, iconUrl || publicAsset('favicon.svg'));
 
   useFrame(({ clock }) => {
     if (pinRef.current) {

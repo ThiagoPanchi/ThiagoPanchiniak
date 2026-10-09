@@ -7,6 +7,7 @@ import {
   Layers,
 } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from './Icons';
+import { publicAsset } from '../../utils/publicAsset';
 
 export default function Sidebar({ isOpen, onClose }) {
   const { t } = useTranslation();
@@ -43,7 +44,7 @@ export default function Sidebar({ isOpen, onClose }) {
           <div className="mb-5 flex w-full justify-center">
             <div className="relative aspect-[768/1027] w-[82%] max-w-72 overflow-hidden rounded-2xl border-2 border-accent-neon/50 bg-gradient-to-br from-dark-surface to-dark-card p-1 shadow-[0_0_20px_rgba(0,255,136,0.15)]">
               <img
-                src="/assets/Foto-Perfil.jpg"
+                src={publicAsset('assets/Foto-Perfil.jpg')}
                 alt={`Foto de perfil de ${profile.name}`}
                 className="h-full w-full rounded-xl bg-dark-card object-contain"
               />
